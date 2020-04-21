@@ -533,6 +533,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4015430332168583204}
     m_Modifications:
+    - target: {fileID: 2025127212025974826, guid: 8077c9ca275b3ed479e3de229030b325,
+        type: 3}
+      propertyPath: m_Text
+      value: 'CREDITS
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 2507493078358633058, guid: 8077c9ca275b3ed479e3de229030b325,
         type: 3}
       propertyPath: m_Name
@@ -712,6 +719,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 123.40698
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891721889940103166, guid: 8077c9ca275b3ed479e3de229030b325,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -233.784
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891721889940103166, guid: 8077c9ca275b3ed479e3de229030b325,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 495.50012
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891721889940103166, guid: 8077c9ca275b3ed479e3de229030b325,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -1171.9097
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891721889940103166, guid: 8077c9ca275b3ed479e3de229030b325,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9155836411006960230, guid: 8077c9ca275b3ed479e3de229030b325,
         type: 3}
