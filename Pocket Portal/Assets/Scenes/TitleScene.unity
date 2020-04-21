@@ -381,6 +381,11 @@ PrefabInstance:
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1620668072}
+    - target: {fileID: 4015430331952915230, guid: 3203b140755238244b3e1b3c3d575996,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4015430332168583201, guid: 3203b140755238244b3e1b3c3d575996,
         type: 3}
       propertyPath: m_Name
@@ -496,5 +501,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 963194227}
+    - target: {fileID: 4015430332441604475, guid: 3203b140755238244b3e1b3c3d575996,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3203b140755238244b3e1b3c3d575996, type: 3}
