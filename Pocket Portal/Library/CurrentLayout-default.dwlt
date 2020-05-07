@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 668
+  controlID: 460
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 673
+  controlID: 461
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 674
+  controlID: 462
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 675
+  controlID: 463
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -443,9 +443,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6efbffff
-      m_LastClickedID: -1170
-      m_ExpandedIDs: 3cfbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -505,9 +505,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.9393446, y: 52.829815, z: -133.06314}
+    m_Target: {x: 3.76, y: 1.31, z: -20.01}
     speed: 2
-    m_Value: {x: 2.9393446, y: 52.829815, z: -133.06314}
+    m_Value: {x: 3.76, y: 1.31, z: -20.01}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -557,9 +557,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.10061885, y: -0.02328832, z: 0.0023398257, w: -0.99469477}
   m_Size:
-    m_Target: -28.505095
+    m_Target: 2.004975
     speed: 2
-    m_Value: -28.505095
+    m_Value: 2.004975
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -627,17 +627,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/PlayServicesResolver
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Nrepesh Joshi\Documents\GitHub\Pocket Portal\322-NrepeshEmilyRyanAmar\Pocket
     Portal
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: b6510000
-    m_LastClickedID: 20918
-    m_ExpandedIDs: 00000000b6510000b8510000ba510000bc510000be510000c0510000c2510000c4510000c6510000c8510000ca510000cc510000ce510000d0510000d2510000d4510000d6510000d8510000da510000dc510000de510000e0510000e2510000e4510000e6510000e8510000ea510000ec510000ee51000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 224f0000
+    m_LastClickedID: 20258
+    m_ExpandedIDs: 00000000224f0000244f0000264f0000284f00002a4f00002c4f00002e4f0000304f0000324f0000344f0000364f0000384f00003a4f00003c4f00003e4f0000404f0000424f0000444f0000464f0000484f00004a4f00004c4f0000524f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -665,7 +665,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b6510000b8510000ba510000bc510000be510000c0510000c2510000c4510000c6510000c8510000ca510000cc510000ce510000d0510000d2510000d4510000d6510000d8510000da510000dc510000de510000e0510000e2510000e4510000e6510000e8510000ea510000ec510000ee51000000ca9a3b
+    m_ExpandedIDs: 00000000224f0000244f0000264f0000284f00002a4f00002c4f00002e4f0000304f0000324f0000344f0000364f0000384f00003a4f00003c4f00003e4f0000404f0000424f0000444f0000464f0000484f00004a4f00004c4f0000524f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -743,9 +743,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 555
-    width: 1163
-    height: 251
+    y: 677
+    width: 1503
+    height: 322
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
 MonoBehaviour:
