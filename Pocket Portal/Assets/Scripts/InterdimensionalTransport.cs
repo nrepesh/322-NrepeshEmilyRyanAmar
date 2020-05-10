@@ -8,51 +8,76 @@ public class InterdimensionalTransport : MonoBehaviour
 
 
     public Material[] materials;
+    public Transform device;
+    bool wasInFront;
+    bool inOtherWorld;
+
+    bool hasCollided;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        SetMaterials(false);
+    }
+
+    void SetMaterials(bool fullRender)
+    {
+        var stencilTest = fullRender ? CompareFunction.NotEqual : CompareFunction.Equal;
+
         foreach (var mat in materials)
         {
-            mat.SetInt("_StencilTest", (int)CompareFunction.Equal);
+            mat.SetInt("_StencilTest", (int)stencilTest);
         }
     }
 
-    void OnTriggerStay(Collider other)
+    bool GetIsInFront()
     {
-        if (other.name != "Main Camera")
+        Vector3 worldPos = device.position + device.forward * Camera.main.nearClipPlane;
+
+        Vector3 pos = transform.InverseTransformPoint(worldPos);
+        return pos.z >= 0 ? true : false;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.transform != device)
+            return;
+        wasInFront = GetIsInFront();
+        hasCollided = true;
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.transform != device)
+            return;
+        hasCollided = false;
+    }
+
+    void WhileCameraColliding()
+    {
+        if (!hasCollided)
             return;
 
-        //outside of other world
-        if (transform.position.z > other.transform.position.z)
+        bool isInFront = GetIsInFront();
+        if ((isInFront && !wasInFront) || (wasInFront && !isInFront))
         {
-            Debug.Log("Outside of other world");
-            foreach (var mat in materials)
-            {
-                mat.SetInt("_StencilTest", (int)CompareFunction.Equal);
-            }
-            //inside other dimension    
+            inOtherWorld = !inOtherWorld;
+            SetMaterials(inOtherWorld);
         }
-        else
-        {
-            Debug.Log("Inside of other world");
-            foreach (var mat in materials)
-            {
-                mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);
-            }
-        }
+        wasInFront = isInFront;
     }
+
+
 
     void OnDestroy()
     {
-        foreach (var mat in materials)
-        {
-            mat.SetInt("_StencilTest", (int)CompareFunction.NotEqual);
-        }
+        SetMaterials(true);
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        WhileCameraColliding();
     }
 }
