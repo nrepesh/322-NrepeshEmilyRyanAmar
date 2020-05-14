@@ -167,6 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000011667685464}
+  - component: {fileID: -7111065594731252103}
   - component: {fileID: 205000011201749446}
   - component: {fileID: 65000012155365366}
   - component: {fileID: -1884456226872865656}
@@ -196,6 +197,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7111065594731252103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013678658166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689a93509e03648aa9606b7425baa848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _psystem: {fileID: 2109670460214765809}
 --- !u!205 &205000011201749446
 LODGroup:
   m_ObjectHideFlags: 0
@@ -245,7 +259,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound: {fileID: 8300000, guid: a57be5b1247ea4c6d8308b0845ea5ce3, type: 3}
-  _psystem: {fileID: 2109670460214765809}
 --- !u!82 &-3554293390261174487
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5019,7 +5032,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
