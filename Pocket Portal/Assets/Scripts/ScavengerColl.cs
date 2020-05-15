@@ -15,7 +15,7 @@ void OnTriggerEnter(Collider other)
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = sound;
         audioSource.Play();
-        Destroy(gameObject, 0.5f);
+        Destroy(gameObject, 0.65f);
     }
 }
 
