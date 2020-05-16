@@ -7739,7 +7739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011667685464, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.45
+      value: 5.908
       objectReference: {fileID: 0}
     - target: {fileID: 4000011667685464, guid: 8fa35cdad352cfa4297d3be64705ecf1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8359,10 +8359,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4480905310558677682}
     m_Modifications:
+    - target: {fileID: 2223091118761116195, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223091118761116195, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0044
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223091118761116195, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.085755
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223091118761116195, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0939741
+      objectReference: {fileID: 0}
     - target: {fileID: 2223091121024221623, guid: 20d253f32be01415da0b297cb7960871,
         type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223091121024221623, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223091121024221623, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.934
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223091121024221623, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -17.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223091121024221623, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1266
       objectReference: {fileID: 0}
     - target: {fileID: 4338002947758848727, guid: 20d253f32be01415da0b297cb7960871,
         type: 3}
@@ -8423,6 +8463,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Apples
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798569907746717382, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: MinDistance
+      value: 0.62027943
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20d253f32be01415da0b297cb7960871, type: 3}
