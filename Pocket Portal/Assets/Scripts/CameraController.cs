@@ -1,11 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraController : MonoBehaviour
 {
-    [Range(0.00001f, 3)]
+
+	[Range(0.00001f, 3)]
     float speed = 0.1f;
+
+    void Start()
+	{
+		
+	}
 
     // Update is called once per frame
     void Update()
@@ -21,4 +28,5 @@ public class CameraController : MonoBehaviour
 
         transform.Rotate(0, rotation, 0);
     }
+
 }
