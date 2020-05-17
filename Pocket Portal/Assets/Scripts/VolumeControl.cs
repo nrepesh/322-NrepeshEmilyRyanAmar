@@ -9,6 +9,15 @@ public class VolumeControl : MonoBehaviour
     private AudioSource Audio;
     private float mv = 1f;      //Start value for music volume
 
+    private void Awake()
+    {
+        GameObject[] obj = GameObject.FindGameObjectsWithTag("Music");
+        if (obj.Length > 1)
+            Destroy(this.gameObject);
+
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
