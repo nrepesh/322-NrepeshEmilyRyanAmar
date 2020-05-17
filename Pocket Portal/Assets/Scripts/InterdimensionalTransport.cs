@@ -11,6 +11,7 @@ public class InterdimensionalTransport : MonoBehaviour
     public Transform device;
     bool wasInFront;
     bool inOtherWorld;
+    private RipplePostProcessor camRipple;
 
     bool hasCollided;
 
@@ -18,6 +19,7 @@ public class InterdimensionalTransport : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        camRipple = Camera.main.GetComponent<RipplePostProcessor>();
         SetMaterials(false);
     }
 
@@ -41,6 +43,7 @@ public class InterdimensionalTransport : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        camRipple.RippleEffect();
         if (other.transform != device)
             return;
         wasInFront = GetIsInFront();
