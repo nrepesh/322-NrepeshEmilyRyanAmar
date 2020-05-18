@@ -9346,6 +9346,26 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2754171699792152867, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: ScoreText
+      value: 
+      objectReference: {fileID: 69189688}
+    - target: {fileID: 2754171699792152867, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: winPanel
+      value: 
+      objectReference: {fileID: 1621787405828162416}
+    - target: {fileID: 2928209390843263196, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: ScoreText
+      value: 
+      objectReference: {fileID: 69189688}
+    - target: {fileID: 2928209390843263196, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: winPanel
+      value: 
+      objectReference: {fileID: 1621787405828162416}
     - target: {fileID: 4338002947758848727, guid: 20d253f32be01415da0b297cb7960871,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9411,6 +9431,16 @@ PrefabInstance:
       propertyPath: MinDistance
       value: 0.62027943
       objectReference: {fileID: 0}
+    - target: {fileID: 7438721650710629623, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: ScoreText
+      value: 
+      objectReference: {fileID: 69189688}
+    - target: {fileID: 7438721650710629623, guid: 20d253f32be01415da0b297cb7960871,
+        type: 3}
+      propertyPath: winPanel
+      value: 
+      objectReference: {fileID: 1621787405828162416}
     - target: {fileID: 8866784396058676583, guid: 20d253f32be01415da0b297cb7960871,
         type: 3}
       propertyPath: ScoreText

@@ -52,6 +52,7 @@ public class InterdimensionalTransport : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
+        
         if (other.transform != device)
             return;
         hasCollided = false;
