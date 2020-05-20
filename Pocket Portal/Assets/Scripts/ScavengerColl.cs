@@ -8,7 +8,7 @@ public class ScavengerColl : MonoBehaviour
 public AudioClip sound;
 private AudioSource audioSource;
 private static int Score = 0;
-private int winScore = 2; //max items to find
+private int winScore = 3; //max items to find
 public Text ScoreText;
 public GameObject winPanel;
 
