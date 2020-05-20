@@ -415,6 +415,10 @@ PrefabInstance:
       propertyPath: audio
       value: 
       objectReference: {fileID: 470063628}
+    - target: {fileID: 1233177548, guid: 3203b140755238244b3e1b3c3d575996, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1233177549, guid: 3203b140755238244b3e1b3c3d575996, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
@@ -426,6 +430,22 @@ PrefabInstance:
     - target: {fileID: 1233177549, guid: 3203b140755238244b3e1b3c3d575996, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233177549, guid: 3203b140755238244b3e1b3c3d575996, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.3999939
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233177549, guid: 3203b140755238244b3e1b3c3d575996, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 60.477962
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233177549, guid: 3203b140755238244b3e1b3c3d575996, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 4.1000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233177549, guid: 3203b140755238244b3e1b3c3d575996, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 8.122589
       objectReference: {fileID: 0}
     - target: {fileID: 1702354955, guid: 3203b140755238244b3e1b3c3d575996, type: 3}
       propertyPath: audio
@@ -798,6 +818,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436734556863182553, guid: 3203b140755238244b3e1b3c3d575996,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -7.6799927
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436734556863182553, guid: 3203b140755238244b3e1b3c3d575996,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 56.44692
       objectReference: {fileID: 0}
     - target: {fileID: 4584069831647005156, guid: 3203b140755238244b3e1b3c3d575996,
         type: 3}
