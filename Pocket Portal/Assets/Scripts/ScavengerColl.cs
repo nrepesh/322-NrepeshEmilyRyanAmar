@@ -5,8 +5,11 @@ using UnityEngine.UI;
 
 public class ScavengerColl : MonoBehaviour
 {
+public GameObject apple0;
+public GameObject apple1;
 public AudioClip sound;
 private AudioSource audioSource;
+public ParticleSystem _psystem;
 private static int Score = 0;
 private int winScore = 3; //max items to find
 public Text ScoreText;
@@ -16,6 +19,7 @@ void Start ()
 	{
 		//Score = 0;
 		SetScoreText ();
+		_psystem = GetComponent<ParticleSystem>();
 	}
 
 
@@ -23,10 +27,13 @@ void OnTriggerEnter(Collider other)
 {
     if (other.gameObject.tag == "MainCamera")
     {
+		apple0.SetActive(false);
+		apple1.SetActive(false);
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = sound;
         audioSource.Play();
-        Destroy(gameObject, 0.65f);
+		_psystem.Play();
+        Destroy(gameObject, 1.00f);
 
 			//Score update
         Score = Score + 1;
