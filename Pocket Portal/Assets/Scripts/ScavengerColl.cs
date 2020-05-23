@@ -15,7 +15,7 @@ private int winScore = 3; //max items to find
 public Text ScoreText;
 public GameObject winPanel;
 
-void Start ()
+	void Start()
 	{
 		//Score = 0;
 		SetScoreText ();
@@ -36,23 +36,31 @@ void OnTriggerEnter(Collider other)
         Destroy(gameObject, 1.00f);
 
 			//Score update
-        Score = Score + 1;
-		SetScoreText ();
+			Score = Score + 1;
+			SetScoreText();
 
-        if(Score == winScore) //opening win panel
-		{
-			winPanel.SetActive(true);
+			if (Score == winScore) //opening win panel
+			{
+				StartCoroutine(OpenWinScreen());
+			}
 		}
-    }
-}
+	}
 
-void SetScoreText()
+	void SetScoreText()
 	{
 		ScoreText.text = Score.ToString() + " / " + winScore;
 	}
 
+	IEnumerator OpenWinScreen()
+	{
+		yield return new WaitForSeconds(0.7f); //wait for particle effect to play
+		winPanel.SetActive(true); //open win screen
+
+	}
+
+
 }
 
- 
-         
- 
+
+
+
