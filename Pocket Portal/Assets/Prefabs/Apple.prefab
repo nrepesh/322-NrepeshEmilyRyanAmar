@@ -167,7 +167,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000011667685464}
-  - component: {fileID: -7111065594731252103}
   - component: {fileID: 205000011201749446}
   - component: {fileID: 65000012155365366}
   - component: {fileID: -1884456226872865656}
@@ -197,19 +196,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-7111065594731252103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013678658166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 689a93509e03648aa9606b7425baa848, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _psystem: {fileID: 2109670460214765809}
 --- !u!205 &205000011201749446
 LODGroup:
   m_ObjectHideFlags: 0
@@ -258,7 +244,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b6515637d534753aeaf1e7995e71ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  apple0: {fileID: 1000013289053694}
+  apple1: {fileID: 1000012063083088}
   sound: {fileID: 8300000, guid: a57be5b1247ea4c6d8308b0845ea5ce3, type: 3}
+  _psystem: {fileID: 2109670460214765809}
   ScoreText: {fileID: 0}
   winPanel: {fileID: 0}
 --- !u!82 &-3554293390261174487
@@ -365,7 +354,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000013678658166}
   serializedVersion: 6
-  lengthInSec: 1
+  lengthInSec: 0.8
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -439,9 +428,9 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 3
-      minScalar: 5
+      minMaxState: 3
+      scalar: 2
+      minScalar: 4
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -494,7 +483,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 1
-      minScalar: 5
+      minScalar: 3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -984,7 +973,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 0
     angle: 20
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
