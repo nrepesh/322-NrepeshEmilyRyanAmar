@@ -44,6 +44,7 @@ public class InterdimensionalTransport : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         camRipple.RippleEffect();
+        Handheld.Vibrate();
         if (other.transform != device)
             return;
         wasInFront = GetIsInFront();

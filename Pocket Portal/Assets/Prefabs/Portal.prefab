@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1062951603}
   - component: {fileID: 1062951602}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062951601}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 1.324, z: 0}
-  m_LocalScale: {x: 1.18, y: 0.64, z: 0.1}
+  m_LocalPosition: {x: -0.56, y: 3.96, z: 7.48}
+  m_LocalScale: {x: 2.4951234, y: 1.6791584, z: 0.1}
   m_Children:
   - {fileID: 1285799793}
   m_Father: {fileID: 8786153284011246961}
@@ -357,7 +357,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aa9fcb8764ab3324aa575a948d139c3a, type: 2}
+  - {fileID: 2100000, guid: 9d3fed87d78a94ebd99c1c0b602ba5e6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -450,7 +450,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aa9fcb8764ab3324aa575a948d139c3a, type: 2}
+  - {fileID: 2100000, guid: 9d3fed87d78a94ebd99c1c0b602ba5e6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -578,7 +578,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aa9fcb8764ab3324aa575a948d139c3a, type: 2}
+  - {fileID: 2100000, guid: 9d3fed87d78a94ebd99c1c0b602ba5e6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 8786153284328796226}
   m_Layer: 0
   m_Name: PortalWindow
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -640,8 +640,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8786153284328796231}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -0.007, z: 0}
-  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_LocalPosition: {x: 0.5, y: 0.004, z: 0}
+  m_LocalScale: {x: 1, y: 1.978088, z: 1}
   m_Children: []
   m_Father: {fileID: 8786153284011246961}
   m_RootOrder: 3

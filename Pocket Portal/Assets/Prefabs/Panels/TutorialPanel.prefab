@@ -218,11 +218,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: c9b87fabee1d447fe84ef3ee443dabb1, type: 3}
-    m_FontSize: 40
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 54
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -231,22 +231,25 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '
 
+    "Augmented Reality Game"
 
 
-    Enter the portal by walking forward through the portal door on
-    your screen
+    1. Point camera to an open space
 
 
+    2.
+    Enter the portal by walking forward through the portal door on your screen
+
+
+    2.
     Walk around and move your device to explore the garden
 
 
-    Keep
-    an eye out for hidden apples! Walk up to an apple to collect it
+    3. Keep an eye out
+    for hidden apples! Take camera closer to collect it
 
 
-    You can
-    see how many apples you have left to collect by tapping the list icon on the
-    game screen
+    4. Hope you enjoy!
 
 
 '

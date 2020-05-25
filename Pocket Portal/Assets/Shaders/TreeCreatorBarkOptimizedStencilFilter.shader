@@ -8,7 +8,7 @@ Properties {
     _TranslucencyMap ("Trans (RGB) Gloss(A)", 2D) = "white" {}
     _Cutoff("Alpha cutoff", Range(0,1)) = 0.3
 
-    [Enum(Equal,3,NotEqual,6)] _StencilTest ("Stencil Test",int) = 6
+    [Enum(Equal,3,NotEqual,6)] _StencilTest ("Stencil Test",int) = 3
 
     // These are here only to provide default values
     _SpecColor ("Specular Color", Color) = (0.5, 0.5, 0.5, 1)

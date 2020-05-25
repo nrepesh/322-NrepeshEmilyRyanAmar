@@ -1104,11 +1104,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6719669159240694266, guid: 84184352be0f14d46b12ae1d83eaf849,
         type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 6719669159240694266, guid: 84184352be0f14d46b12ae1d83eaf849,
-        type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 0
       objectReference: {fileID: 0}
@@ -1116,30 +1111,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_MaxSize
       value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 6719669159240694266, guid: 84184352be0f14d46b12ae1d83eaf849,
-        type: 3}
-      propertyPath: m_Text
-      value: '
-
-
-        Enter the portal by walking forward through the portal door
-        on your screen
-
-
-        Walk around and move your device to explore the
-        garden
-
-
-        Keep an eye out for hidden apples! Walk up to an apple to
-        collect it
-
-
-        You can see how many apples you have left to collect
-        by tapping the list icon on the game screen
-
-
-'
       objectReference: {fileID: 0}
     - target: {fileID: 8308237646405265139, guid: 84184352be0f14d46b12ae1d83eaf849,
         type: 3}

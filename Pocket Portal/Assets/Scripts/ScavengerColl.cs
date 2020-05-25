@@ -17,7 +17,7 @@ public GameObject winPanel;
 
 	void Start()
 	{
-		//Score = 0;
+		Score = 0;
 		SetScoreText ();
 		_psystem = GetComponent<ParticleSystem>();
 	}
