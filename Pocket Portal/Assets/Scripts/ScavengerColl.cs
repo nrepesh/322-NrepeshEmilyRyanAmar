@@ -10,14 +10,14 @@ public GameObject apple1;
 public AudioClip sound;
 private AudioSource audioSource;
 public ParticleSystem _psystem;
-private static int Score = 0;
+private static int Score;
 private int winScore = 3; //max items to find
 public Text ScoreText;
 public GameObject winPanel;
 
 	void Start()
 	{
-		//Score = 0;
+		Score = 0;
 		SetScoreText ();
 		_psystem = GetComponent<ParticleSystem>();
 	}
